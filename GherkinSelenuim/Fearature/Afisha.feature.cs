@@ -20,8 +20,8 @@ namespace GherkinSelenuim.Fearature
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Go to the cinema section")]
-    public partial class GoToTheCinemaSectionFeature
+    [NUnit.Framework.DescriptionAttribute("Afisha")]
+    public partial class AfishaFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
@@ -35,19 +35,17 @@ namespace GherkinSelenuim.Fearature
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Fearature", "Go to the cinema section", @"	In order to watch movies
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Fearature", "Afisha", @"	In order to watch movies
 	As a user
 	I want to have the opportunity to go to the movies page
 
-Feature: Movie titles converge
-    To select a movie
+	To select a movie
     As a user
     I want the names of the films to match in the list of films and on the page of the film
 
-Feature: search for sections of the poster on the site
-To have an idea of all the events
-As a user
-I want to open the page and see sections of the poster", ProgrammingLanguage.CSharp, ((string[])(null)));
+	To have an idea of all the events
+	As a user
+	I want to open the page and see sections of the poster", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -87,14 +85,14 @@ I want to open the page and see sections of the poster", ProgrammingLanguage.CSh
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Go to the cinema section")]
-        [NUnit.Framework.CategoryAttribute("Afisha1")]
+        [NUnit.Framework.CategoryAttribute("cinema")]
         public virtual void GoToTheCinemaSection()
         {
             string[] tagsOfScenario = new string[] {
-                    "Afisha1"};
+                    "cinema"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Go to the cinema section", null, tagsOfScenario, argumentsOfScenario);
-#line 17
+#line 15
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -114,14 +112,14 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 18
+#line 16
  testRunner.Given("the page is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 19
+#line 17
  testRunner.When("click on the movie button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 20
- testRunner.Then("find  test", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 18
+ testRunner.Then("find test", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -129,14 +127,14 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Movie titles converge")]
-        [NUnit.Framework.CategoryAttribute("Afisha2")]
+        [NUnit.Framework.CategoryAttribute("cinema")]
         public virtual void MovieTitlesConverge()
         {
             string[] tagsOfScenario = new string[] {
-                    "Afisha2"};
+                    "cinema"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Movie titles converge", null, tagsOfScenario, argumentsOfScenario);
-#line 23
+#line 21
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -156,13 +154,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 24
- testRunner.Given("the afisha page is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 22
+ testRunner.Given("afisha page is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 25
+#line 23
  testRunner.When("click on the name of movie", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 26
+#line 24
  testRunner.Then("find name of movie", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -171,14 +169,14 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Search the movie")]
-        [NUnit.Framework.CategoryAttribute("search")]
+        [NUnit.Framework.CategoryAttribute("cinema")]
         public virtual void SearchTheMovie()
         {
             string[] tagsOfScenario = new string[] {
-                    "search"};
+                    "cinema"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Search the movie", null, tagsOfScenario, argumentsOfScenario);
-#line 29
+#line 27
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -198,19 +196,19 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 30
+#line 28
  testRunner.Given("The afisha page is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 31
+#line 29
  testRunner.When("Set first movie in the movie list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 32
+#line 30
  testRunner.When("Enter the movie name in search field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 33
+#line 31
  testRunner.When("Click search button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 34
+#line 32
  testRunner.Then("Search movie name equals find movie name", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -219,14 +217,14 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Check the adress of cinemas")]
-        [NUnit.Framework.CategoryAttribute("search")]
+        [NUnit.Framework.CategoryAttribute("cinema")]
         public virtual void CheckTheAdressOfCinemas()
         {
             string[] tagsOfScenario = new string[] {
-                    "search"};
+                    "cinema"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check the adress of cinemas", null, tagsOfScenario, argumentsOfScenario);
-#line 37
+#line 35
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -246,13 +244,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 38
+#line 36
  testRunner.Given("Open afisha page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 39
+#line 37
  testRunner.When("Click on cinema", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 40
+#line 38
  testRunner.Then("Adress is actual", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
